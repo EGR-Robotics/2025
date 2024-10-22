@@ -34,7 +34,7 @@ class SwerveDrive:
                 FL_DRIVE_MOTOR_ID,
                 FL_STEER_MOTOR_ID,
                 FL_CAN_CODER_ID,
-                Translation2d(0.5, -0.5),
+                Translation2d(-0.5, 0.5),
                 FR_OFFSET
             ),  
             # Front-right module
@@ -50,7 +50,7 @@ class SwerveDrive:
                 BL_DRIVE_MOTOR_ID,
                 BL_STEER_MOTOR_ID,
                 BL_CAN_CODER_ID,
-                Translation2d(-0.5, 0.5),
+                Translation2d(-0.5, -0.5),
                 BL_OFFSET
             ),  
             # Back-right module
@@ -58,7 +58,7 @@ class SwerveDrive:
                 BR_DRIVE_MOTOR_ID,
                 BR_STEER_MOTOR_ID,
                 BR_CAN_CODER_ID,
-                Translation2d(-0.5, -0.5),
+                Translation2d(0.5, -0.5),
                 BR_OFFSET
             ),
         ]
